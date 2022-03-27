@@ -676,6 +676,12 @@ a {
 
 /* latest-news ---------------------------*/
 
+.latest-news {
+    background-color: #fafafa;
+    height: 883px;
+    width: 100%;
+}
+
 .latest-news__wrapper {
     width: 100%;
     height: 883px;
@@ -685,6 +691,7 @@ a {
 .latest-news_cards {
     display: flex;
     justify-content: space-between;
+    margin-top: 61px;
 }
 
 .cards__card {
@@ -692,4 +699,76 @@ a {
     height: 492px;
     background-color: #ffffff;
 }
+
+.cards__img {
+    width: 364px;
+    height: 236px;
+    position: relative;
+}
+
+.cards__img::after {
+    content: '';
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    top: 208px;
+    left: 33px;
+    display: block;
+    position: absolute;
+    background-image: url('../img/latest news/cat50x50.png');
+}
+
+.cards__postdate {
+    font-family: 'Nunito Sans';
+    font-size: 14px;
+    line-height: 6.6px;
+    font-weight: 700;
+    color: #5b5b5b;
+    padding: 50px 0px 0px 30px;
+}
+
+.cards__title {
+    font-family: 'Nunito Sans';
+    font-size: 21px;
+    line-height: 6.6px;
+    font-weight: 700;
+    color: #151515;
+    text-transform: uppercase;
+    padding: 48px 0px 0px 28px;
+}
+
+.cards__discription {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #5b5b5b;
+    padding: 24px 0px 0px 28px;
+    position: relative;
+}
+
+.cards__discription::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 364px;
+    height: 1px;
+    background-color: #d8d8d8;
+    left: 0px;
+    top: 93px;
+}
+
+.cards__more {
+    border: none;
+    font-family: 'Nunito Sans';
+    font-size: 15px;
+    line-height: 6.6px;
+    font-weight: 700;
+    color: #e73100;
+    text-transform: uppercase;
+    background-color: transparent;
+    margin: 43px 0px 0px 23px;
+}
+
+
 
