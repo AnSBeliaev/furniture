@@ -15,6 +15,15 @@ h1 {
     line-height: 1.2;
 }
 
+h2 {
+    font-family: Poppins;
+    font-size: 36px;
+    line-height: 95px;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+}
+
 h3 {
     color: #2d3436;
     font-size: 30px;
@@ -34,6 +43,11 @@ h3 {
 a {
     text-decoration: none;
 }
+
+ img {
+    max-width: 100%;
+    height: auto;
+} 
 
 .title {
     padding-left: 4px;
@@ -133,7 +147,9 @@ a {
 
 .header__category-btn {
     display: flex;
-    flex: 0.945;
+    flex: 1;
+    max-width: 274px;
+    min-width: 215px;
     height: 79px;
     background-color: #ef8b59;
     cursor: pointer;
@@ -256,6 +272,7 @@ li {
 .title-page__wrap-left {
     max-width: 615px;
     height: 725px;
+    margin: 0 auto;
 }
 
 .title-page__title {
@@ -290,6 +307,7 @@ li {
 .title-page__wrap-right {
     height: 725px;
     max-width: 520px;
+    margin: 0 auto;
 }
 
 .title-page__circle-wrap {
@@ -333,6 +351,7 @@ li {
 .top-new-products {
     min-height: 737px;
     width: 100%;
+    height: auto;
     background-color: #fafafa;
 }
 
@@ -345,14 +364,16 @@ li {
 .top-new-products__goods {
     display: flex;
     justify-content: space-between;
-    margin-top: 48px;
+    padding-top: 48px;
+    margin: 0 auto;
     flex-wrap: wrap;
-    width: 100%;
+    max-width: 100%;
 }
 
 .top-new-products__item {
-    width: 265px;
+    max-width: 265px;
     height: 361px;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -450,6 +471,7 @@ li {
 .category__collection_left-block {
     display: flex;
     max-width: 559px;
+    margin: 0 auto;
     height: 584px;
     flex-direction: column;
     justify-content: space-between;
@@ -462,6 +484,7 @@ li {
 
 .category__collection_right-block {
     display: flex;
+    margin: 0 auto;
     max-width: 559px;
     height: 584px;
     flex-direction: column;
@@ -503,7 +526,6 @@ li {
     min-height: 420px;
     width: 100%;
     min-width: min-content;
-    margin: 0 auto;
     padding-top: 4px;
     margin: 0 auto;
 }
@@ -512,6 +534,7 @@ li {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .quarters__img {
@@ -526,69 +549,59 @@ li {
 }
 
 .quarters__description_title {
-    max-width: 540px;
+    max-width: 640px;
     font-family: Poppins;
-    font-size: 36px;
+    padding-top: 64px;
+    padding-left: 52px;
     line-height: 95px;
     font-weight: 600;
     letter-spacing: 0.025em;
     color: #ffffff;
-    padding-top: 64px;
-    padding-left: 53px;
 }
 
-.quarters__description_text {
-    max-width: 540px;
+.text {
+    padding-top: 15px;
     font-family: Poppins;
     font-size: 18px;
     line-height: 1.2;
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #ffffff;
-    padding-left: 53px;
-}
-
-.text-1 {
-    padding-top: 15px;
-}
-
-.text-2 {
-    padding-top: 19px;
 }
 
 /* latest-news ---------------------------*/
 
 .latest-news {
     background-color: #fafafa;
-    background-color: #fafafa;
     min-height: 883px;
+    height: auto;
     width: 100%;
-    margin: 0 auto;
     text-align: center;
 }
 
 .latest-news__wrapper {
-    width: 100%;
-    min-height: 883px;
     padding-top: 118px;
 }
 
 .latest-news_cards {
     display: flex;
     justify-content: space-between;
-    margin-top: 61px;
+    padding-top: 61px;
+    width: 100%;
     flex-wrap: wrap;
 }
 
 .cards__card {
    width: 364px;
     height: 492px;
+    margin: 0 auto;
     background-color: #ffffff;
 }
 
 .cards__img {
     width: 364px;
     height: 236px;
+    margin: 0 auto;
     position: relative;
 }
 
