@@ -687,6 +687,7 @@ li {
     border-radius: 10px;
     margin-top: 180px;
     display: inline-block;
+    position: relative;
 }
 
 .slider__wrapper {
@@ -695,12 +696,16 @@ li {
     margin-bottom: 110px;
 }
 
-.item-active {
+.item-absolute {
     position: absolute;
-    background-color: #ef8b59;
     margin: auto;
     left: 0;
     right: 0;
+}
+
+.active {
+    background-color: #ef8b59;
+    z-index: 10;
 }
 
 .dots__wrapper {
